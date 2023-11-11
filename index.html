@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Admin View</title>
+</head>
+
+<body>
+    <form id="formData">
+            <label>Selling Price :</label>
+            <input type="text" id="sellingPrice">
+            <label>Product Name :</label>
+            <input type="text" id="productName">
+            <button type="submit">Add Product</button>
+    </form>
+    <h1>Products</h1>
+    <ul id="productDetails"></ul>
+    <h3 id="totalValue">Total value worth of product: <span id="totalAmount">0</span></h3>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/axios/1.6.1/axios.min.js"></script>
+    <script src="index.js"></script>
+</body>
+</html>
